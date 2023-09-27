@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik:wght@400;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    background-color: #FFFDED;
+    outline: none;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+main {
+    width: 375px;
+    height: 400px;
+    background: #FFFDED;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 0px 24px 23px;
+    
+}
+
+label {
+    color: ##000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select {
+    background: #FFFDED;
+    border-radius: 4px;
+    width: 100%;;
+    height: 48px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+select, input {
+    background: #ffff;
+    border-radius: 4px;
+    width: 100%;;
+    height: 48px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+button{
+    border-radius: 5px;
+    background: #000;
+    width: 100%;
+    height: 48px;
+    color: #EAD464;
+    font-size: 18px;
+    font-weight: 700px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+section {
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 10px 0;
+    
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+p.currency {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p.currency-value, .currency-value-to-convert{
+    color: #000;
+    font-weight: 700;
+}
